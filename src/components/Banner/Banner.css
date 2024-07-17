@@ -58,7 +58,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  opacity: 0px;
   margin-bottom: 16px;
 }
 .swiper__slide-bg_title .swiper__slide-bg_title-watch {
@@ -72,9 +71,16 @@
   letter-spacing: -0.5px;
   text-align: center;
   font-variation-settings: "slnt" 0;
-
   border-radius: 10px;
-  opacity: 0px;
+}
+.opponents span {
+  font-family: "Inter-semi-bold";
+  color: #9395b8;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.699999988079071px;
+  text-align: center;
 }
 .opponents {
   display: flex;
