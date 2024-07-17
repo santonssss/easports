@@ -1,0 +1,101 @@
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.comment__profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment__content {
+  flex: 1;
+}
+
+.comment__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.comment__username {
+  margin-right: 10px;
+  font-family: "Inter-medium";
+  font-size: 14px;
+  color: #7b7ea5;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+
+.comment__timestamp {
+  color: #9395b8;
+  font-family: "Inter-medium";
+  margin-right: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.comment__reply-input button {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: "Inter-semi-bold";
+  cursor: pointer;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  font-variation-settings: "slnt" 0;
+}
+.comment__text {
+  margin-bottom: 10px;
+  font-family: "Inter-semi-bold";
+  font-size: 14px;
+  color: #06082c;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  font-variation-settings: "slnt" 0;
+}
+
+.comment__replies {
+  margin-top: 10px;
+}
+
+.comment__reply {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.comment__reply-profile-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.comment__reply-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment__reply-username {
+  font-weight: bold;
+  margin-right: 8px;
+  margin-bottom: 4px;
+}
+
+.comment__reply-text {
+  margin-bottom: 5px;
+}
+
+.comment__reply-timestamp {
+  color: #9395b8;
+  font-size: 0.7rem;
+}

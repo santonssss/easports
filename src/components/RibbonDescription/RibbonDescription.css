@@ -1,0 +1,14 @@
+.ribbonDescription {
+  font-family: "Inter-medium";
+  color: #7b7ea5;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.ribbonDescription span {
+  color: #353754;
+  font-family: "Inter-semi-bold";
+  margin-left: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.filter__btns {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  gap: 12px;
+}
+.filter__btns button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  gap: 14.5px;
+  color: #7b7ea5;
+  font-family: "Inter-semi-bold";
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  font-variation-settings: "slnt" 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.filter__btn-path {
+  transition: 0.5s;
+}
+.filter__btns button:hover .filter__btn-path {
+  stroke: #353754;
+  transition: 0.5s;
+}
+
+.filter__btns button:hover {
+  color: #7b7ea5;
+  color: #06082c;
+  transition: 0.5s;
+}
